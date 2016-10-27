@@ -7,6 +7,19 @@
     <documentationStatus xmi:id="_Zk8l4Jw9EeaKNM1-_nPWDQ" label="unchecked" code="UCK"/>
     <documentationStatus xmi:id="_Zk8l4Zw9EeaKNM1-_nPWDQ" label="checked" code="CHK"/>
     <documentationStatus xmi:id="_Zk8l4pw9EeaKNM1-_nPWDQ" label="validated" code="VAL"/>
+    <ItemsRelations xmi:id="_-DOg0Jw9EeaKNM1-_nPWDQ">
+      <baseItem xmi:id="_-DOg0Zw9EeaKNM1-_nPWDQ" id="_sYpVcJw9EeaKNM1-_nPWDQ" version="0.1" type="job"/>
+      <relatedItems xmi:id="_-DOg0pw9EeaKNM1-_nPWDQ" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_-DOg05w9EeaKNM1-_nPWDQ" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_-DOg1Jw9EeaKNM1-_nPWDQ" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_-DOg1Zw9EeaKNM1-_nPWDQ" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_-DOg1pw9EeaKNM1-_nPWDQ" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_-DOg15w9EeaKNM1-_nPWDQ" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_-DOg2Jw9EeaKNM1-_nPWDQ" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_-DOg2Zw9EeaKNM1-_nPWDQ" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_-DOg2pw9EeaKNM1-_nPWDQ" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_-DOg25w9EeaKNM1-_nPWDQ" id="_2iFqoJw9EeaKNM1-_nPWDQ - metadata" version="Latest" type="schema"/>
+    </ItemsRelations>
     <migrationTask xmi:id="_ZkLJ0Jw9EeaKNM1-_nPWDQ" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_ZkLJ0Zw9EeaKNM1-_nPWDQ" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_ZkLJ0pw9EeaKNM1-_nPWDQ" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="ok"/>
