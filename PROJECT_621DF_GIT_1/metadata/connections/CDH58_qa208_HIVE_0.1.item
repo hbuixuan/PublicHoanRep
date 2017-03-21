@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <TalendMetadata:DatabaseConnection xmi:id="_ZiZUoAgLEeeNfPzWPu5Z4w" name="CDH58_qa208_HIVE" id="_ZiKrIAgLEeeNfPzWPu5Z4w" label="CDH58_qa208_HIVE" dataPackage="_2AwegAjCEeezz_jnOTWnDQ _2AwegQjCEeezz_jnOTWnDQ _2AweggjCEeezz_jnOTWnDQ" DatabaseType="Hive" DriverClass="org.apache.hadoop.hive.jdbc.HiveDriver" URL="jdbc:hive2://tal-qa209.talend.lan:10000/default;principal=hive/_HOST@CDH.COM;ssl=true;sslTrustStore=C:/1_Thoan/B_BigData/Kerberos/hdfs.truststore;trustStorePassword=talend" dbVersionString="STANDALONE" Port="10000" Username="" Password="" ServerName="tal-qa209.talend.lan" SID="default" SqlSynthax="SQL Syntax" DbmsId="hive_id" ProductId="HIVE" StandardSQL="true">
+    <taggedValue xmi:id="_2TZMEAgREeeNfPzWPu5Z4w" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_-xI0cAgREeeNfPzWPu5Z4w" tag="DB ProductName" value="Apache Hive"/>
+    <taggedValue xmi:id="_-xI0cQgREeeNfPzWPu5Z4w" tag="DB ProductVersion" value="1.1.0-cdh5.8.0"/>
+    <taggedValue xmi:id="_1s_N8AjCEeezz_jnOTWnDQ" tag="Status" value=""/>
+    <taggedValue xmi:id="_1s_N8QjCEeezz_jnOTWnDQ" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_1s_N8gjCEeezz_jnOTWnDQ" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_1s_N8wjCEeezz_jnOTWnDQ" tag="Description" value=""/>
+    <taggedValue xmi:id="_1s_N9AjCEeezz_jnOTWnDQ" tag="Author" value=""/>
+    <taggedValue xmi:id="_1s_N9QjCEeezz_jnOTWnDQ" tag="otherParameter"/>
+    <parameters xmi:id="_ZiZUoQgLEeeNfPzWPu5Z4w" key="CONN_PARA_KEY_USE_YARN" value="true"/>
+    <parameters xmi:id="_ZiZUoggLEeeNfPzWPu5Z4w" key="CONN_PARA_KEY_RESOURCEMANAGER_SCHEDULER_ADDRESS" value="tal-qa208.talend.lan:8030"/>
+    <parameters xmi:id="_ZiZUowgLEeeNfPzWPu5Z4w" key="CONN_PARA_KEY_USEKEYTAB" value="true"/>
+    <parameters xmi:id="_ZiZUpAgLEeeNfPzWPu5Z4w" key="CONN_PARA_KEY_USE_CUSTOM_CONFS" value="true"/>
+    <parameters xmi:id="_ZiZUpQgLEeeNfPzWPu5Z4w" key="CONN_PARA_KEY_NAME_NODE_URL" value="hdfs://nameservice1"/>
+    <parameters xmi:id="_ZiZUpggLEeeNfPzWPu5Z4w" key="CONN_PARA_KEY_USERNAME" value=""/>
+    <parameters xmi:id="_ZiZUpwgLEeeNfPzWPu5Z4w" key="CONN_PARA_KEY_HADOOP_CLUSTER_ID" value="_-qKt8AgKEeeNfPzWPu5Z4w"/>
+    <parameters xmi:id="_ZiZUqAgLEeeNfPzWPu5Z4w" key="CONN_PARA_KEY_JOB_HISTORY_PRINCIPAL" value="hdfs/_HOST@CDH.COM"/>
+    <parameters xmi:id="_ZiZUqQgLEeeNfPzWPu5Z4w" key="CONN_PARA_KEY_HBASE_VERSION" value="Cloudera_CDH5_7"/>
+    <parameters xmi:id="_ZiZUqggLEeeNfPzWPu5Z4w" key="CONN_PARA_KEY_JOB_TRACKER_URL" value="tal-qa208.talend.lan:8032"/>
+    <parameters xmi:id="_ZiZUqwgLEeeNfPzWPu5Z4w" key="CONN_PARA_KEY_JOBHISTORY_ADDRESS" value="tal-qa210.talend.lan:10020"/>
+    <parameters xmi:id="_ZiZUrAgLEeeNfPzWPu5Z4w" key="CONN_PARA_KEY_HIVE_VERSION" value="Cloudera_CDH5_7"/>
+    <parameters xmi:id="_ZiZUrQgLEeeNfPzWPu5Z4w" key="CONN_PARA_KEY_USE_DATANODE_HOSTNAME" value="true"/>
+    <parameters xmi:id="_ZiZUrggLEeeNfPzWPu5Z4w" key="CONN_PARA_KEY_DB_SERVER" value="nameservice1"/>
+    <parameters xmi:id="_ZiZUrwgLEeeNfPzWPu5Z4w" key="CONN_PARA_KEY_DB_TYPE" value="Hive"/>
+    <parameters xmi:id="_ZiZUsAgLEeeNfPzWPu5Z4w" key="HIVE_AUTHENTICATION_HIVEPRINCIPLA" value="hive/_HOST@CDH.COM"/>
+    <parameters xmi:id="_ZiZUsQgLEeeNfPzWPu5Z4w" key="CONN_PARA_KEY_JOB_TRACKER_PRINCIPAL" value="yarn/_HOST@CDH.COM"/>
+    <parameters xmi:id="_ZiZUsggLEeeNfPzWPu5Z4w" key="CONN_PARA_KEY_HIVE_DISTRIBUTION" value="CLOUDERA"/>
+    <parameters xmi:id="_ZiZUswgLEeeNfPzWPu5Z4w" key="CONN_PARA_KEY_KEYTAB_PRINCIPLA" value="automation"/>
+    <parameters xmi:id="_ZiZUtAgLEeeNfPzWPu5Z4w" key="CONN_PARA_KEY_USE_KRB" value="true"/>
+    <parameters xmi:id="_ZiZUtQgLEeeNfPzWPu5Z4w" key="CONN_PARA_KEY_HBASE_DISTRIBUTION" value="CLOUDERA"/>
+    <parameters xmi:id="_ZiZUtggLEeeNfPzWPu5Z4w" key="CONN_PARA_KEY_STAGING_DIRECTORY" value="/user"/>
+    <parameters xmi:id="_ZiZUtwgLEeeNfPzWPu5Z4w" key="CONN_PARA_KEY_NAME_NODE_PRINCIPAL" value="hdfs/_HOST@CDH.COM"/>
+    <parameters xmi:id="_ZiZUuAgLEeeNfPzWPu5Z4w" key="CONN_PARA_KEY_DB_PRODUCT" value="HIVE"/>
+    <parameters xmi:id="_ZiZUuQgLEeeNfPzWPu5Z4w" key="CONN_PARA_KEY_KEYTAB" value="C:/1_Thoan/B_BigData/Kerberos/cdh.58ker_automation.keytab"/>
+    <parameters xmi:id="_ZiZUuggLEeeNfPzWPu5Z4w" key="CONN_PARA_KEY_HIVE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+    <parameters xmi:id="_ZiZUuwgLEeeNfPzWPu5Z4w" key="HIVE_AUTHENTICATION_METASTOREURL" value="thrift://tal-qa209.talend.lan:9083"/>
+    <parameters xmi:id="_ZiZUvAgLEeeNfPzWPu5Z4w" key="CONN_PARA_KEY_HBASE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+    <parameters xmi:id="_ZiZUvQgLEeeNfPzWPu5Z4w" key="HIVE_SERVER_VERSION" value="HIVE2"/>
+    <parameters xmi:id="_ZiZUvggLEeeNfPzWPu5Z4w" key="CONN_PARA_KEY_HIVE_MODE" value="STANDALONE"/>
+    <parameters xmi:id="_2PwpQAgREeeNfPzWPu5Z4w" key="HIVE_AUTHENTICATION_DRIVERCLASS" value=""/>
+    <parameters xmi:id="_2PwpQQgREeeNfPzWPu5Z4w" key="HIVE_AUTHENTICATION_USERNAME" value=""/>
+    <parameters xmi:id="_2PwpQggREeeNfPzWPu5Z4w" key="HIVE_AUTHENTICATION_PASSWORD" value=""/>
+    <parameters xmi:id="_2QCWEAgREeeNfPzWPu5Z4w" key="HIVE_EXECUTION_ENGINE"/>
+    <parameters xmi:id="_2QZicAgREeeNfPzWPu5Z4w" key="CONN_PARA_KEY_USE_SSL" value="false"/>
+    <parameters xmi:id="_4ogCQAgREeeNfPzWPu5Z4w" key="CONN_PARA_KEY_HIVE_ADDITIONAL_JDBC_SETTINGS" value="ssl=true;sslTrustStore=C:/1_Thoan/B_BigData/Kerberos/hdfs.truststore;trustStorePassword=talend"/>
+    <parameters xmi:id="_uIsWEAjCEeezz_jnOTWnDQ" key="CONN_PARA_KEY_SSL_TRUST_STORE_PATH" value=""/>
+    <parameters xmi:id="_uIsWEQjCEeezz_jnOTWnDQ" key="CONN_PARA_KEY_SSL_TRUST_STORE_PASSWORD" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_2AwegAjCEeezz_jnOTWnDQ" name="automation" dataManager="_ZiZUoAgLEeeNfPzWPu5Z4w"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_2AwegQjCEeezz_jnOTWnDQ" name="default" dataManager="_ZiZUoAgLEeeNfPzWPu5Z4w">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_6OlTMA2LEeeqr5a5lEJBEg" name="hive_table" id="_6Od-cA2LEeeqr5a5lEJBEg" label="hive_table" tableType="TABLE">
+      <taggedValue xmi:id="_6OlTMQ2LEeeqr5a5lEJBEg" tag="Comment" value=""/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_6OlTMg2LEeeqr5a5lEJBEg" name="newcolumn" label="newcolumn" length="2147483647" sourceType="STRING" talendType="id_String">
+        <taggedValue xmi:id="_6OlTMw2LEeeqr5a5lEJBEg" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_6OlTNA2LEeeqr5a5lEJBEg" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_6OlTNQ2LEeeqr5a5lEJBEg" name="STRING" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_6OlTNg2LEeeqr5a5lEJBEg" name="newcolumn1" label="newcolumn1" length="2147483647" sourceType="STRING" talendType="id_String">
+        <taggedValue xmi:id="_6OlTNw2LEeeqr5a5lEJBEg" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_6OlTOA2LEeeqr5a5lEJBEg" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_6OlTOQ2LEeeqr5a5lEJBEg" name="STRING" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_6OlTOg2LEeeqr5a5lEJBEg" name="id" label="id" length="2147483647" sourceType="STRING" talendType="id_String">
+        <taggedValue xmi:id="_6OlTOw2LEeeqr5a5lEJBEg" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_6OlTPA2LEeeqr5a5lEJBEg" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_6OlTPQ2LEeeqr5a5lEJBEg" name="STRING" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_6OlTPg2LEeeqr5a5lEJBEg" name="name" label="name" length="2147483647" sourceType="STRING" talendType="id_String">
+        <taggedValue xmi:id="_6OlTPw2LEeeqr5a5lEJBEg" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_6OlTQA2LEeeqr5a5lEJBEg" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_6OlTQQ2LEeeqr5a5lEJBEg" name="STRING" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_7lDhcQ2MEeeqr5a5lEJBEg" name="tabletest" id="_7lDhcA2MEeeqr5a5lEJBEg" label="tabletest" tableType="TABLE">
+      <taggedValue xmi:id="_7lDhcg2MEeeqr5a5lEJBEg" tag="Comment" value=""/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_7lDhcw2MEeeqr5a5lEJBEg" name="col" comment="from deserializer" label="col" sourceType="STRING" talendType="id_String">
+        <taggedValue xmi:id="_7lDhdA2MEeeqr5a5lEJBEg" tag="Comment" value="from deserializer"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_7lDhdQ2MEeeqr5a5lEJBEg" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_7lDhdg2MEeeqr5a5lEJBEg" name="ARRAY_STRING_" javaDataType="2003" nullable="columnNullable"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Schema>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_2AweggjCEeezz_jnOTWnDQ" name="talend" dataManager="_ZiZUoAgLEeeNfPzWPu5Z4w"/>
+</xmi:XMI>
